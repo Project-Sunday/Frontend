@@ -1,0 +1,43 @@
+What is Angular?
+Angular is a framework for building modern single-page applications. Makes complex code more managable,
+without having to reinvent the wheel.
+New version every six months.
+
+Single-page vs traditional application?
+Traditional loads full page on request, vs partial update.
+Examples: googlemaps, gmail... www.madewithangular.com
+
+- Most Angular developers use TypeScript, a superset of JavaScript/ECMAScript. TypeScript is strongly typed with compile-time checking, with IDE support, Angular is written in TypeScript. Can use JavaScript, ECMAScript, Dart.
+
+- VS Code has built-in support for TypeScript. Typescript compiling to JavaScript code is 'transpiling'.
+	- Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass for access errors
+	- 'tsc mycode.ts' --> 'mycode.js'
+	- Run the JavaScript code 'node mycode.js'
+
+--------------------------------------------------------------------------------------
+- To run TypeScript, install:
+	- VSCode	-> code editor
+
+	- Node		-> runtime environment for JavaScript using cmd: 									https://nodejs.org/download/release/v16.10.0/
+				node --version confirms successful installation
+
+	- npm		-> node package manager, similar to maven, installed with Node
+				npm --version confirms successful installation
+				
+	- tsc		-> TypeScript compiler, using cmd:
+				npm install -g typescript
+				-g means global, available for all directories for user
+				tsc --version confirms successful installation
+-----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
